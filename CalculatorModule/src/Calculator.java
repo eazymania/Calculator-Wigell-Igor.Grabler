@@ -36,7 +36,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + (a + b));
+                        System.out.println("Result: " + add(a, b));
                     }
                     break;
 
@@ -52,7 +52,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + (a - b));
+                        System.out.println("Result: " + sub(a, b));
                     }
                     break;
 
@@ -68,7 +68,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + (a * b));
+                        System.out.println("Result: " + mul(a, b));
                     }
                     break;
 
@@ -88,7 +88,7 @@ public class Calculator {
                             continue;
                         }
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + (a / b));
+                        System.out.println("Result: " + div(a, b));
                     }
                     break;
 
@@ -102,4 +102,9 @@ public class Calculator {
 
         }
 
-    }
+        private static double add(double a, double b) { return a + b; }
+        private static double sub(double a, double b) { return a - b; }
+        private static double mul(double a, double b) { return a * b; }
+        private static double div(double a, double b) { return a / b; }
+
+        }
