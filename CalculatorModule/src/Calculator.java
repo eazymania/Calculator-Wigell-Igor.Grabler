@@ -36,7 +36,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + add(a, b));
+                        System.out.println("[Addition mode] Result: " + add(a, b));
                     }
                     break;
 
@@ -52,7 +52,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + sub(a, b));
+                        System.out.println("[Subtraction mode] Result: " + sub(a, b));
                     }
                     break;
 
@@ -68,7 +68,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + mul(a, b));
+                        System.out.println("[Multiplication mode] Result: " + mul(a, b));
                     }
                     break;
 
@@ -88,7 +88,7 @@ public class Calculator {
                             continue;
                         }
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("Result: " + div(a, b));
+                        System.out.println("[Division mode] Result: " + div(a, b));
                     }
                     break;
 
