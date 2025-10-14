@@ -84,7 +84,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         if (b == 0) {
-                            System.out.println("Error: Division by zero is not all0wed");
+                            System.out.println("Error: Division by zero is not allowed");
                             continue;
                         }
                         System.out.println("You entered: " + a + " and " + b);
