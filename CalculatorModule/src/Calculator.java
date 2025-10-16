@@ -88,7 +88,7 @@ public class Calculator {
                             continue;
                         }
                         System.out.println("You entered: " + a + " and " + b);
-                        System.out.println("[Division mode] Result: " + div(a, b));
+                        System.out.println("[Division_mode] Result: " + div(a, b));
                     }
                     break;
 
