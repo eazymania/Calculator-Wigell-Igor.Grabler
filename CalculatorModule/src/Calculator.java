@@ -26,7 +26,7 @@ public class Calculator {
             switch (choice) {
                 case "1":
                     while (true) {
-                        System.out.print("Enter two numbers for addition (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for add!tion (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
@@ -42,7 +42,7 @@ public class Calculator {
 
                 case "2":
                     while (true) {
-                        System.out.print("Enter two numbers for Subtraction (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for Subtract!on (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
@@ -58,7 +58,7 @@ public class Calculator {
 
                 case "3":
                     while (true) {
-                        System.out.print("Enter two numbers for Multiplication (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for Mult!plication (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
@@ -74,7 +74,7 @@ public class Calculator {
 
                 case "4":
                     while (true) {
-                        System.out.print("Enter two numbers for Division (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for D!vision (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
@@ -84,7 +84,7 @@ public class Calculator {
                         double b = Double.parseDouble(input[1]);
                         if (a == 0 && b == 0) break;
                         if (b == 0) {
-                            System.out.println("Error: Division by zero is not all0wed");
+                            System.out.println("Error: Division by zero is not allowed");
                             continue;
                         }
                         System.out.println("You entered: " + a + " and " + b);
