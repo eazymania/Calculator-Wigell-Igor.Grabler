@@ -26,7 +26,7 @@ public class Calculator {
             switch (choice) {
                 case "1":
                     while (true) {
-                        System.out.print("Enter two numbers for add!tion (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for addition (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
