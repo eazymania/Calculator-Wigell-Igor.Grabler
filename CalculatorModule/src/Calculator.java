@@ -74,7 +74,7 @@ public class Calculator {
 
                 case "4":
                     while (true) {
-                        System.out.print("Enter two numbers for D!vision (or 0 0 to go back): ");
+                        System.out.print("Enter two numbers for Division (or 0 0 to go back): ");
                         String[] input = sc.nextLine().trim().split("\\s+");
                         if (input.length != 2) {
                             System.out.println(("Wrong, enter two numbers with space between"));
